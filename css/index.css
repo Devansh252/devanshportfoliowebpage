@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bac.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#particles-js {
+	height: 10vh;
+	background-blend-mode: cover;
+}
+.headings {
+	 
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 10vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+.sub-head {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    margin-left: 10vw;
+    font-size: 35px;
+}
+
+.paras {
+    margin-left: 10vw;
+    color: gray;
+    font-size: 20px;
+    margin-top: 1vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    padding-bottom: 18vh;
+}
+
+.home-heading {
+    margin-top: 20vh;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+
+.home-text {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    color: grey;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 180px;
+    width: 180px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.social-circle {
+    height: 45px;
+    width: 45px;
+    margin-top: 5vh;
+    margin-left: 1vw;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dp-pic {
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 180px;
+    width: 180px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.s-pic {
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.box-btn-all {
+    border: 1px solid black;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    line-height: 50px;
+}
+.left{
+	float: left;
+}
